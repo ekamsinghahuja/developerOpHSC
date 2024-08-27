@@ -7,7 +7,7 @@ const jwt = require("jsonwebtoken");
 
 // Admin Routes
 router.post('/signup', async (req, res) => {
-    // Implement admin signup logic
+    // Implement admin signup logiccp
     const username = req.body.username;
     const password = req.body.password;
 

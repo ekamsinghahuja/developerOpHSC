@@ -2,13 +2,13 @@ const { Router } = require("express");
 const router = Router();
 const userMiddleware = require("../middleware/user");
 
-// User Routes
+
 router.post('/signup', (req, res) => {
-    // Implement user signup logic
+    
 });
 
 router.post('/signin', (req, res) => {
-    // Implement admin signup logic
+    
 });
 
 router.get('/courses', (req, res) => {

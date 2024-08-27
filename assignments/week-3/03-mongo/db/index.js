@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 // Connect to MongoDB
 mongoose.connect('your-mongodb-url');
 
-// Define schemas
 const AdminSchema = new mongoose.Schema({
     // Schema definition here
 });
